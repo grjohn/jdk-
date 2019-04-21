@@ -9,6 +9,7 @@ import sun.security.util.Length;
  * @Date 2019/4/21 15:22
  * @Version 1.0
  */
+
 @stutable("tb_student")
 public class student {
     @stufield(columnName="name",type="varchar",length=10)
