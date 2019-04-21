@@ -12,7 +12,7 @@ import sun.security.util.Length;
 @stutable("tb_student")
 public class student {
     @stufield(columnName="name",type="varchar",length=10)
-    String name;
+    private String name;
     @stufield(columnName="id",type="int",length=10)
     int id;
     @stufield(columnName="age",type="int",length=10)
@@ -28,6 +28,15 @@ public class student {
 
     public int getId() {
         return id;
+    }
+
+    public student(){
+
+    }
+    public student(String name, int id, int age) {
+        this.name = name;
+        this.id = id;
+        this.age = age;
     }
 
     public void setId(int id) {
