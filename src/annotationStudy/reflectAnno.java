@@ -10,6 +10,8 @@ import java.lang.reflect.Field;
  * @Date 2019/4/21 15:43
  * @Version 1.0
  */
+
+
 public class reflectAnno {
     public static void main(String[] args) throws ClassNotFoundException, NoSuchFieldException {
         Class student = Class.forName("annotationStudy.student");  //获取类的信息
