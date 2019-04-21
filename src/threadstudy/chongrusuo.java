@@ -7,6 +7,7 @@ package threadstudy;
  * @Date 2019/4/19 22:56
  * @Version 1.0
  */
+
 public class chongrusuo {
     public static class relock{
         public int count=0;
