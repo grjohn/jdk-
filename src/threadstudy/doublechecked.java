@@ -11,6 +11,7 @@ public class doublechecked {
       *@Date 2019/4/19 21:10
       *@Version 1.0
     */
+
     private volatile static doublechecked instance;
     private doublechecked(){
 

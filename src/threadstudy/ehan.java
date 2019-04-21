@@ -7,6 +7,7 @@ package threadstudy;
  * @Date 2019/4/19 22:17
  * @Version 1.0
  */
+
 public class ehan {
     private static final ehan instance= new ehan();
     private ehan(){
