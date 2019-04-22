@@ -31,6 +31,8 @@ public class refDemo {
         Method m01 = stuClass.getDeclaredMethod("setName",String.class);    //给出参数，区别重载
         for(Method m:declaredMethods){
             System.out.println("方法:"+m);
+               System.out.println();
+
         }
         System.out.println("方法:"+m01);
 
