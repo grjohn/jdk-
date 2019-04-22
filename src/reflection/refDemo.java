@@ -59,6 +59,6 @@ public class refDemo {
         name.setAccessible(true);   //不需要执行安全检查(可以提高性能)，对于private属性，直接访问
         name.set(s,"刘");
         System.out.println("学生2改："+s.getName());
-        
+
     }
 }
